@@ -1,0 +1,272 @@
+@media only screen and (min-width:320px) and (max-width:992px){
+  body,html{overflow-x: hidden;}
+  body{padding-bottom: 45px !important;}
+  .res-hide{display: none !important;}
+
+  .container{max-width: 100% !important ;}
+
+  .res-full{width: 100% !important; max-width: 100% !important; flex: 0 0 100% !important;}
+
+  .headerWrapper .header{padding: 10px 0px;}
+  .headerWrapper .header .logoWrapper{width: 30% !important; padding-right: 0px !important; }
+  .headerWrapper .header .part2{width: 70% !important; }
+  .headerWrapper .header .part2 .btn-blue{padding: 5px 10px !important; margin-right: 10px !important;}
+
+  .headerWrapperFixed.fixed{top: 0px !important;}
+  
+  .headerSearchWrapper{position: fixed; top: 0px; left: 0px; width: 100% !important; height: 100vh; background: #fff; z-index: 1000; padding: 15px !important; margin: 0px !important; opacity: 0; visibility: hidden; transition: all 0.3s;}
+
+  .headerSearchWrapper.open{opacity: 1; visibility: inherit;}
+
+  .closeSearch{display: block; font-size: 20px;}
+
+
+  .headerSearchWrapper .headerSearch{width: 100% !important; pad: 0px !important; margin: 0px !important;}
+
+  .res-nav{position: fixed; bottom: -100%; right:0%; width: 100%; height: 100vh; background: #fff; z-index: 101; padding: 20px 0px; transition: all 0.2s ease-in-out; opacity: 0;
+  max-height: 80vh; overflow-y: scroll;}
+
+  .res-nav .btn-blue{border-radius: 5px !important; text-align: center !important; justify-content: center !important;}
+
+  .toggleNav{margin-left: 10px !important;}
+
+  .res-nav-overlay{width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; background: rgba(0,0,0,0.7); z-index: 100;  opacity: 0; visibility: hidden;}
+
+  .res-nav-wrapper.open .res-nav{bottom: 0px; opacity: 1;}
+  .res-nav-wrapper.open .res-nav-overlay{opacity: 1; visibility: inherit;}
+
+  .res-nav li{width: 100%; padding-bottom: 0px !important;}
+  .res-nav li a,  .res-nav li a button{display: flex !important; width: 100% !important; border-radius: 0px !important; justify-content: flex-start !important;}
+  .res-nav li a button{padding: 10px 20px !important;}
+
+  nav .navPart2 ul li .submenu{width: 100% !important; position: static !important; height: 0px; box-shadow: none !important; transition: all 0.3s;}
+  nav .navPart2 ul li .submenu.open{ height: auto !important; opacity: 1 !important; visibility: inherit !important;}
+
+  nav .navPart2 ul li .arrow{display: flex; align-items: center; justify-content: center;
+    position: absolute; top: 7px; right: 20px; z-index: 100; transition: all 0.3s ease-in-out;
+    width: 30px;
+    height: 30px;
+    background: #f1f1f1;
+    border-radius: 100%;}
+    nav .navPart2 ul li .arrow.rotate{transform: rotate(180deg);}
+
+
+  nav .navPart1 .catWrapper .sidebarNav{opacity: 1 !important; visibility: inherit !important; position: relative !important; top: 0px !important; left: 0px !important; height: auto !important; display: block !important; border: 0px !important; padding: 0px !important;}
+
+  nav .navPart1{max-width: 100% !important; width: 100% !important;}
+
+  nav .navPart1 .catWrapper .sidebarNav ul{display: block !important; width: 100% !important; white-space: nowrap !important; overflow: scroll !important; overflow-y:hidden !important ;
+  margin-bottom: 0px !important;}
+  nav .navPart1 .catWrapper .sidebarNav ul::-webkit-scrollbar{display: none !important;}
+
+
+  nav .navPart1 .catWrapper .sidebarNav ul li{display: inline-block !important; vertical-align: top !important; width: max-content !important; padding: 0px !important;}
+
+  .headerWrapperFixed + div{margin-top: 160px !important;}
+
+  .homeProducts .homeProductsRow .col-md-3{order: 2; max-width: 100% !important; flex: 0 0 100% !important;}
+  .homeProducts .homeProductsRow .col-md-9{order: 1; padding-right: 0px !important; max-width: 100% !important; flex: 0 0 100% !important;}
+
+  .productRow .info{width: 100% !important;}
+  .productRow div.ml-auto{width: 100% !important;}
+
+  .res-flex-column{flex-direction: column;}
+
+  .product_row .swiper{padding-right: 0px !important;}
+  
+  .bannerSec{white-space: nowrap !important; overflow: scroll !important; overflow-y: hidden;
+  display: block !important;}
+  .bannerSec::-webkit-scrollbar{display: none !important;}
+  .bannerSec .banner{width: 220px !important; display: inline-block !important; margin-right: 10px !important;}
+
+  .homeProductsRow .sticky{position: static !important; display: block !important; white-space: nowrap !important; overflow: scroll !important; overflow-y: hidden !important;}
+  .homeProductsRow .sticky .banner{display: inline-block !important; vertical-align: top !important; width: 150px !important; margin-right: 15px !important; margin-top: 0px !important;}
+
+  .homeProductsRow .sticky::-webkit-scrollbar{display: none !important;}
+
+  .newsLetterSection{padding: 25px 0px !important;}
+  .newsLetterSection img{display: none !important;}
+
+  footer{overflow: hidden;}
+  footer .topInfo{ display: block !important; white-space: nowrap !important; overflow: scroll !important; overflow-y: hidden !important;}
+  footer .topInfo::-webkit-scrollbar{display: none !important;}
+  footer .topInfo .col{width: 250px !important; max-width: 250px !important; flex: 0 0 250px !important; display: inline-block !important;}
+
+  footer .linksWrap{display: block !important; white-space: nowrap !important; overflow: scroll !important; overflow-y: hidden !important;}
+  footer .linksWrap::-webkit-scrollbar{display: none !important;}
+  footer .linksWrap .col{width: 200px !important; max-width: 200px !important; flex: 0 0 200px !important; display: inline-block !important;}
+
+  .headerWrapperFixed + section{margin-top: 140px !important;}
+
+  .product_row{margin: 0px !important;}
+  .productScroller{white-space: nowrap !important; overflow: scroll; overflow-y: hidden; display: block !important; width: 100% !important; transform: inherit !important; padding: 15px 0px;}
+  .productScroller::-webkit-scrollbar{display: none !important;}
+  .productScroller .productItem{width: 170px !important; float: none !important; display: inline-block !important; vertical-align: top; margin-right: 10px !important; padding: 0px !important;}
+
+  .product_Listing_Page{padding-top: 15px !important;}
+  .product_Listing_Page .productListing .sidebar{position: fixed; top: 0px !important; right: -100%; width: 100%; height: 100%; max-height: 100vh; overflow-y: scroll; z-index: 10000; background: #fff; flex: 0 0 100% !important; padding: 25px; transition: all 0.3s ease-in-out; opacity: 0;}
+  .product_Listing_Page .productListing .sidebar.open{right: 0px !important; opacity: 1 !important;}
+  .product_Listing_Page .productListing .sidebar img{display: none !important;}
+
+  .product_Listing_Page .productListing .content_right{width: 100% !important; flex:0 0 100% !important; padding-left: 0px;}
+
+  .fixedBtn{position: fixed; bottom: 0px; left: 0px; width: 100%; height: auto; padding: 15px;
+  z-index: 10000; background: #fff; margin: auto !important;}
+  .fixedBtn .col button{width: 100% !important;}
+
+  .productDetails .part1{padding-left: 15px !important;}
+  .productDetails .part2{padding:20px 15px !important;}
+  .productDetails .part2 .hd{font-size: 22px !important; line-height: 30px !important;}
+  .productDetails .actions_{flex-direction: column; display: flex; align-items: center;}
+
+  .btnActions{padding-top: 15px; position: relative;  width: 100% !important;}
+
+  .detailsPageTabs{margin-top: 0px !important;}
+
+  .signInPage{height: auto !important;}
+  .signInPage .box{width:100% !important ;}
+  .signInPage .box form{padding: 20px 10px !important;}
+  .signInPage .box form button{margin-bottom: 10px;}
+
+  .cartDetails{margin-top: 15px;}
+  .myListTableWrapper{width: 100% !important;}
+  .myListTableWrapper .col-md-12{padding-right: 15px !important;}
+
+  table th{white-space: nowrap !important;}
+
+  .myAccBox .col-md-8{margin-top: 25px !important;}
+
+  .linksWrap{margin-top: 25px !important;}
+
+  .productModal .MuiPaper-elevation{width: 100% !important; max-width: 900px !important;
+  margin: 10px !important;}
+
+  .tabContent table *{white-space: nowrap;}
+
+  .productItem .info h4{white-space: initial !important;}
+
+  .cartPage .col-md-9.pr-5{padding-right: 15px !important;}
+
+  .homeCat .swiper .item{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+
+
+
+    .bannerSection{white-space: nowrap !important; overflow: scroll !important; overflow-y: hidden !important; display: block !important; padding-top: 0px !important;}    
+    .bannerSection::-webkit-scrollbar{display: none !important;}
+    .bannerSection .col_{display: inline-block !important; width: 280px !important; margin-right: 10px !important;}
+
+    .productScroller + div.mt-4{margin-top: 0px !important;}
+
+    .homeCat .swiper .item{width: 80px !important; height: 80px !important;}
+
+
+}
+
+@media only screen and (min-width:320px) and (max-width:350px){
+  .homeCat .swiper .item{height: 130px;}
+
+
+}
+
+@media only screen and (min-width:320px) and (max-width:575px){
+  
+  .productSize{padding-bottom: 0px !important;}
+
+  .detailsPageTabs{padding: 20px !important;}
+
+  .customTabs ul{white-space: nowrap !important; overflow: scroll !important; overflow-y: hidden; display: block !important; margin-bottom: 0px !important;}
+   .customTabs ul::-webkit-scrollbar{display: none !important;}
+  .customTabs ul li{display: inline-block !important; width: max-content !important;}
+  .customTabs ul li button{padding: 5px 15px !important; font-size: 13px !important;}
+
+  .productDetaileModal .actions_{flex-direction: column !important; padding: 10px 0px; justify-content: flex-start !important;}
+
+  .productDetaileModal .actions_ .quantityDrop {margin-bottom: 15px !important;}
+
+  .productDetaileModal .actions_ .btn-big{margin-right: auto !important; margin-left: 0px !important;}
+  
+  .productModal .actions{margin-top: 15px !important;}
+  .productModal .actions button{zoom: 80%;}
+
+  .countryDrop{width: 100% !important;}
+  .homeCat .swiper .item{width: 100px !important; height: 100px !important;}
+
+}
+
+@media only screen and (min-width:320px) and (max-width:350px){
+  .productListing, .infinite-scroll-component{
+    gap:7px !important;
+  }
+  .product_Listing_Page .productItem{width: 100% !important;}
+  .productListing .productItem.one{width: 100% !important;}
+
+  .productItem .img_rapper{height: 205px !important;}
+}
+
+@media only screen and (min-width:350px) and (max-width:600px){
+  .productListing, .infinite-scroll-component{
+    gap:7px !important;
+  }
+  .product_Listing_Page .productListing{gap: 7px !important;}
+  .product_Listing_Page .productItem{width: 48% !important;}
+  .productListing .productItem.one{width: 100% !important;}
+  .productItem .img_rapper{height: 205px !important;}
+}
+
+@media only screen and (min-width:600px) and (max-width:767px){
+  .productListing, .infinite-scroll-component{
+    gap:7px !important;
+  }
+  .product_Listing_Page .productItem{width:32.5% !important;}
+  .productListing .productItem.one{width: 100% !important;}
+}
+
+@media only screen and (min-width:767px) and (max-width:992px){
+  .productListing, .infinite-scroll-component{
+    gap:7px !important;
+  }
+  .product_Listing_Page .productItem{width:23% !important;}
+  .productListing .productItem.one{width: 100% !important;}
+
+  
+}
+
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:767px){
+
+  header .part3 .circle{min-width: 35px !important; width: 35px !important; height: 35px !important; margin-right: 8px !important;}
+  .cartTab .position-relative.ml-2{margin-left: 0px !important;}
+
+  #accDrop ul li{padding: 5px 12px !important; font-size: 14px !important;}
+
+  .quantityDrop{width: 100% !important;}
+
+  .newsLetterSection h3{font-size: 30px !important;}
+  .newsLetterSection p br{display: none !important;}
+
+  .newsLetterSection form{width: 100% !important;}
+
+  .copyright {flex-direction: column; justify-content: center;}
+  .copyright *{text-align: center !important; margin: auto !important;}
+  .copyright ul{padding-top: 10px !important;}
+  .copyright ul li{margin: 0px 5px !important;}
+
+  .empty h3{text-align: center; font-size: 18px !important;}
+
+}
+
+@media only screen and (min-width:575px) and (max-width:767px){
+  .productRow2{padding: 20px 0px !important;}
+  .productRow2 .productItem{width:31% !important;}
+  .productSize{padding-bottom: 0px !important;}
+  .productItem .img_rapper img{height: 100% !important; object-fit: cover !important;}
+}
+
+@media only screen and (min-width:320px) and (max-width:1100px){
+}

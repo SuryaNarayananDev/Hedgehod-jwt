@@ -1,0 +1,123 @@
+*{margin: 0px; padding: 0px;}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css');
+
+body{font-family: "Lato", sans-serif; font-size: 14px; color: rgba(0,0,0,0.8); overflow-x: hidden; font-size: 15px;}
+
+.bg-blue{background: #6d4aae;}
+
+
+@media (min-width: 1300px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1280px;
+}
+}
+
+.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root{z-index: 1000000 !important;}
+.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root .MuiPaper-elevation{max-height: 350px !important;}
+
+button .MuiCircularProgress-root{width: 30px !important; height: 30px !important;}
+  button svg{color: #fff;}
+
+.badge{display: inline-block; padding: 7px 10px; border-radius: 20px;}
+.badge.bg-success{background: #e5f8ed !important; color: #16b858 !important;}
+.badge-success{color: #00b853; background: #e5f8ed;}
+
+button{text-transform: capitalize !important;}
+
+.btn-blue{background: #6d4aae !important; color: #fff !important; 
+  text-transform: capitalize !important; font-weight: 600 !important; padding: 5px 20px !important;}
+
+ 
+.bg-red{background: #ed174a !important;}
+
+.text-red{color: #ed174a !important;}
+.text-blue{color: #53348c !important;}
+
+  .btn-blue:hover{background: #53348c !important;} 
+.btn-big{font-size: 15px !important; padding: 8px 30px !important; min-width: auto !important;
+font-weight: bold !important;}
+.btn-round{border-radius: 30px !important;}
+
+.btn-blue svg{font-size: 22px;}
+
+.btn-sml{font-size: 12px !important; color: #000; text-transform: capitalize !important;}
+.btn-sml svg{font-size: 20px;}
+
+.btn-circle{border-radius: 50% !important; min-width: auto !important;}
+
+.cursor{cursor: pointer;}
+.text-light{color: #8b8b8b !important;}
+.text-sml{font-size: 14px;}
+
+::-webkit-scrollbar{width: 8px !important; height: 8px !important;}
+::-webkit-scrollbar-thumb{background: #ccc !important;}
+::-webkit-scrollbar-track{background: transparent !important;}
+
+
+.close{opacity: 1 !important;}
+
+.section{padding: 45px 0px;}
+
+.signInPage{width: 100%; height: 100vh; position: relative; overflow: hidden;}
+.signInPage .shape-bottom {
+  position: absolute;
+  top: auto;
+  bottom: -6px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.signInPage::after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(#7141c9, #f16ff8);
+  opacity: 0.9;
+  z-index: -1;
+}
+
+
+.border-effect{position:relative;color:#337ab7;text-decoration:none}.border-effect:after{display:block;position:absolute;left:0;bottom:-2px;width:0;height:1px;background-color:#102a44;content:"";-webkit-transition:.2s;-moz-transition:.2s;-o-transition:.2s;transition:.2s}.border-effect:hover{text-decoration:none;color:#000}.border-effect:hover:after{width:100%}
+
+.signInPage .box{width: 400px; height: auto; background: #fff; margin: auto; position: relative; z-index: 100; border-radius: 10px !important;}
+.signInPage .box h2{font-size: 25px; font-weight: 600;}
+
+.signInPage .box form{padding: 20px 30px;}
+
+.signInPage .box .form-group{margin-bottom: 15px;} 
+
+.signInPage .box .txt{font-size: 14px; font-weight: bold;}
+
+.loginWithGoogle{width: 100%; font-weight: bold !important; color: rgba(0,0,0,0.8) !important;}
+.loginWithGoogle img {width: 30px; margin-right: 10px;}
+
+
+.signUpPage .box{width: 500px;}
+
+
+.filterTabs .item{display: flex; align-items: center; justify-content: center; padding: 5px 10px !important; text-transform:capitalize; cursor: pointer; transition: all 0.2s;  font-size: 13px; font-weight: 700 !important;}
+
+.loadingOverlay{position: fixed; top: 0px; left: 0px; width: 100%; height:100%; z-index: 10000; cursor: wait; background: rgba(255,255,255,0.7);}
+
+
+
+.snackbar{right: 20px !important; left: inherit !important; z-index: 100000000 !important;}
+
+.paymentPage{padding: 80px 0px;}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.infinite-scroll-component__outerdiv{width:100% !important;}
