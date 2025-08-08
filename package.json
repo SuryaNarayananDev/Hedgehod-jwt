@@ -1,0 +1,19 @@
+{
+  "name": "jackfruit_auth",
+  "version": "1.0.0",
+  "description": "A JWT Authentication Backend Starter Kit to help devs quickly set up secure login systems in Node.js + Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuryaNarayananDev/jackfruit_npm_module.git"
+  },
+  "author": "https://github.com/SuryaNarayananDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuryaNarayananDev/jackfruit_npm_module/issues"
+  },
+  "homepage": "https://github.com/SuryaNarayananDev/jackfruit_npm_module#readme"
+}
