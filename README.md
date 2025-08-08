@@ -59,10 +59,15 @@ hedgehod-kit/
 Create a `.env` file in your root project with variables like:
 
 ```
-MONGODB_URI=your_mongodb_url
-JWT_SECRET=your_secret_key
-FIREBASE_PROJECT_ID=...
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_super_secret_key
+FIREBASE_PROJECT_ID=your_project_id
+FIREBASE_CLIENT_EMAIL=your_firebase_admin_email
+FIREBASE_PRIVATE_KEY="your_private_key"
+
 ...
+⚠️ Use double quotes for the private key and replace \n with actual line breaks if needed.
+Refer the sample.env file in repo
 ```
 
 ## 📧 Forgot Password via Email OTP
