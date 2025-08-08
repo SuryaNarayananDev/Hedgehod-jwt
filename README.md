@@ -1,6 +1,12 @@
-# 🦔 Hedgehod Kit - JWT Authentication Starter
+# 🦔 Hedgehod Kit - JWT Authentication Starter Kit
 
 **Hedgehod Kit** is a plug-and-play backend JWT authentication system for Node.js + Express apps. Easily add secure login, signup, OTP-based email recovery, and protected profile routes.
+
+<p align="center">
+  <img src="https://github.com/SuryaNarayananDev/Hedgehod-jwt/blob/main/spiky(hedegehod).png" width="300" />
+</p>
+
+
 
 ## 🔧 Features
 
