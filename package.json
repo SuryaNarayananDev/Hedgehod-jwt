@@ -1,15 +1,29 @@
 {
-  "name": "hedgehog-jwt",
+  "name": "hedgehod-kit",
   "version": "1.0.0",
-  "description": "A JWT Authentication Backend Starter Kit to help devs quickly set up secure login systems in Node.js + Express.",
+  "description": "A JWT Authentication Backend Starter Kit to help developers quickly set up secure login systems in Node.js + Express.",
   "main": "src/index.js",
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "https://github.com/SuryaNarayananDev",
+  "keywords": [
+    "jwt",
+    "authentication",
+    "nodejs",
+    "express",
+    "mongoose",
+    "firebase",
+    "otp",
+    "auth-kit",
+    "starter-kit"
+  ],
+  "author": "Surya Narayanan <https://github.com/SuryaNarayananDev>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuryaNarayananDev/hedgehod-kit.git"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "express": "^5.1.0",
